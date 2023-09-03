@@ -4,7 +4,7 @@ import pandas as pd
 primaryColor="#F63366"
 backgroundColor="#FFFFFF"
 
-st.title("My Sample Data collection  App!")
+st.title("My Data collection App!")
 
 age = st.text_input("What is your age?",
             value="",
