@@ -11,7 +11,7 @@ age = st.text_input("What is your age?",
             placeholder="Please enter your age here correctly",)
 
 st.caption("This suvery is only for age 13 and above.")
-if st.button("Next"):
+if st.button("Next", type="primary"):
     have_it = age.lower() in age
     
 ## basic error handling
