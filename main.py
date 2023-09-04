@@ -34,7 +34,7 @@ if age != "":
                                     placeholder="Enter your current address")
             if name != "":
                 if st.button("submit", type="primary"):
-                    st.success("This is a success message!", icon="✅")
+                    st.success("Your data was successfully saved!", icon="✅")
                     st.write(f"{name}, " "Thanks for your time")
         else:
             st.write("You are not qualified for this suvrey")
